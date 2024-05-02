@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" async></script>
+</head>
+<body>
+    
+    <div class="centerContainer">
+
+        <div class="signUp">회원가입</div>
+        <div class="divide"></div>
+
+            <div class="formWrapper">
+                <div class="inputLabel">이름</div>
+                <input type="text"  class="input" id="name_value" oninput="check_name()"    />
+                <div class="font" id="name_dis"> </div>
+                
+                <div class="inputLabel">이메일</div>
+                <input type="text"  class="input" id="email_value" oninput="check_email()"   />
+                <div class="font" id="email_dis"></div>
+
+                <div class="inputLabel">나이</div>
+                <input type="text"  class="input" id="age_value"/>
+                <div class="font" id="age_dis"></div>
+
+                <div class="inputLabel">비밀번호</div>
+                <input type="password"  class="input" id="pws_value" />
+                <div class="font" id="pwd_dis"></div>
+
+                <div class="inputLabel">비밀번호 확인</div>
+                <input type="password"  class="input" id="pws2_value">
+                <div class="font" id="pwd2_dis"></div>
+            </div> 
+        <button class="click" onclick="submit()">가입하기</button>    
+            
+    </div>
+ <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>가입에 성공했습니다!</p>
+        </div>
+    </div>    
+</body>
+</html>

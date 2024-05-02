@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(127, 196, 159);
+}
+
+.centerContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    width : 300px; 
+    height: 500px;
+    background-color: whitesmoke;
+    margin-left: 500px;
+    margin-top: 50px;
+    border-radius: 8px;
+    padding : 50px;
+}
+
+.signUp {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.divide {
+    background-color: beige;
+    height:5px;
+    margin-top: 10px;
+}
+
+.formWrapper {
+    text-align : left;
+    margin-left: 15px;
+
+}
+
+.inputLabel{
+    margin-top: 15px;
+}
+
+.input{
+    width: 260px;
+    background-color: whitesmoke;
+    border : 2px solid white;
+}
+.click{
+    width : 150px;
+    height : 40px;
+    margin-left :70px;
+    margin-top: 20px;
+   background-color: gray;
+   color: white;
+}
+
+.font{
+    font-size: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
